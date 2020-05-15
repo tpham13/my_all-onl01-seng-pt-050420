@@ -7,7 +7,11 @@ def my_all?(collection)
     block_return_values << yield(collection[i])
     i = i + 1
   end
+<<<<<<< HEAD
   
+=======
+  binding.pry
+>>>>>>> 17f4d194bfc9a01a09328d6a629ef2704a5e2d31
   !block_return_values.include?(false)
     
 end
